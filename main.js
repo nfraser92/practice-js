@@ -6,9 +6,9 @@ const getJobs = () => {
     const createHTML = (obj) => {
         return `
         <article class="card">
-        <div>Company:${obj.organization}</div>
-        <div>Role:${obj.role}</div>
-        <div>Dates Employed:${obj.start_year} to ${obj.end_year}</div>
+        <div>Company: ${obj.organization}</div>
+        <div>Role: ${obj.role}</div>
+        <div>Dates Employed: ${obj.start_year} to ${obj.end_year}</div>
         `
     }
 
